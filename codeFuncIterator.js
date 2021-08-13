@@ -45,6 +45,3 @@ const runFuncManyx = (count, rFunc) => {
 runFuncManyx(10, appendDivbox);
 
 // code -> func -> iterator of the func -> iterator of the iterator of the func
-
-
-
