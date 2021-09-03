@@ -13,7 +13,15 @@ function addColRow() {
   col.appendChild(row2);
   body.appendChild(col);
 }
-function runFuncManyx(count, func) {
-  new Array(count).fill(null).forEach(() => func());
-}
-runFuncManyx(10000, addColRow);
+
+addColRow();
+addColRow();
+addColRow();
+
+
+// do you see?
+// do you notice how this is automating ONE COMPLETE PACKET instead of automating some parts?
+// do you notice how this does NOT MISS the relationships between parts?
+// do you notice how trying to automate parts and then other parts, misses those relationships?
+// do you notice HOW MANY PROBLEMS THAT CREATES? 
+

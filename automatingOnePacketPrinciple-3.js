@@ -13,7 +13,9 @@ function addColRow() {
   col.appendChild(row2);
   body.appendChild(col);
 }
+
 function runFuncManyx(count, func) {
   new Array(count).fill(null).forEach(() => func());
 }
+
 runFuncManyx(10000, addColRow);
